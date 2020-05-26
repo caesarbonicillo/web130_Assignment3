@@ -1,0 +1,20 @@
+{
+  "name": "david-assignment03",
+  "version": "1.0.0",
+  "description": "Assignment 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx http-server",
+    "node-sass": "node-sass --output-style compressed -o dist/css src/scss"
+  },
+  "author": "David Bonicillo",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "http-server": "^0.12.1",
+    "node-sass": "4.5.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

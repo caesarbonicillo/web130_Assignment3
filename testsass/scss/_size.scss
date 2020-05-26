@@ -1,0 +1,32 @@
+/**
+ * Sizes
+ * ======
+ *  - small: < 40em
+ *  - medium: 40em < 64em
+ *  - large: 64em and greater
+ */
+
+
+//  *** Deprecate 
+
+$content-width: 1000px;
+$breakpoint: 800px;
+$nav-height: 50px;
+
+@mixin screenSize($size){
+    @if $size == small{
+        @media screen and (max-width: 39.99em){
+            @content;
+        }
+    }
+    @else if $size == medium{
+        @media screen and (min-width: 34em){
+            @content;
+        }
+    }@else if $size == large{
+        @media screen and (min-width:64em){
+            @content;
+        }
+    }
+}
+                    

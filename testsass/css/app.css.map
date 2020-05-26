@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../scss/_size.scss","../scss/app.scss","../scss/_colors.scss"],"names":[],"mappings":"AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;ACKA;EACI;EACA;EACA,YCLG;;;ADQP;EACI;EACA;EACA,YCdG;;ADeH;EACI,OCdI;;ADgBR;EACI,OChBD;;;ADsBP;EACI;IACI;;;ADlBA;ECsBR;IAEQ;;;ADpBA;ECkBR;IAKQ","file":"app.css"}
